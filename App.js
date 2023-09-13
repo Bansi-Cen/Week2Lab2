@@ -22,9 +22,12 @@ export default function HelloWorldApp() {
        onPress={() => onChangeText('')}
  	      title="Clear" 
        />
-       <View style={{flexDirection : 'row'}}>
+
+       
+       <View 
+       //Task 3 
+       style={{flexDirection : 'row'}}>
        <Text style={styles(isEnabled).text}>Light</Text>
-   
        <Switch
         trackColor={{false: '#767577', true: '#536878'}}
         thumbColor={isEnabled ? '#708090' : '#f4f3f4'}
